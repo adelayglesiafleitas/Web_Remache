@@ -1,0 +1,112 @@
+.Trabajos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 1400px;
+  overflow: hidden;
+}
+.container_listTrabajos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 70px;
+  /*overflow: hidden;*/
+  width: 1400px;
+  /* display: inline*/
+}
+.container_peliculas {
+  width: 375px;
+  height: 544px;
+  margin: 47px;
+  overflow: hidden;
+  border-radius: 15px;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.container_peliculas_img {
+  border-radius: 15px;
+  width: 375px;
+  height: 544px;
+  transition: transform 0.8s ease-out;
+}
+.container_peliculas_img:hover {
+  transform: scale(1.2);
+}
+
+.container_peliculas_texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateY(-220px);
+  margin-left: 15px;
+  width: 343px;
+  height: 183px;
+  text-align: left;
+  position: relative;
+}
+.container_peliculas_texto h2 {
+  color: rgb(255, 192, 0);
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: left;
+}
+
+.container_peliculas_texto h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: left;
+  font-style: normal;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.animate__animated animate__backInLeft {
+  --animate-duration: 8s;
+}
+
+.container_button button_Back {
+  background-color: transparent;
+  border: none;
+  transition: transform 0.8s ease-out;
+}
+
+.container_button button_Next {
+  background-color: transparent;
+
+  border: none;
+  transition: transform 1s ease-out;
+}
+.button_Works_Next {
+  transform: translate(1302px, -372px);
+}
+.button_Works_Back {
+  transform: translate(-2px, -372px);
+}
+
+.container_button button_Next :hover {
+  transform: scale(1.5);
+}
+.container_button button_Back :hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+.container_button_Trabajos {
+  transform: translate(-650px, 0px);
+}
+
+.container_list_Trabajos {
+  display: flex;
+  transform: translate(0, -101px);
+  gap: 33px;
+}
+
+.container_list_Trabajos button {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  border: none;
+}

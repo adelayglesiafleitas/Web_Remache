@@ -1,0 +1,83 @@
+.container_CV {
+  width: 1400px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 150px;
+  margin-bottom: 87px;
+  overflow: hidden;
+}
+.container_CV_left {
+  background-color: rgb(255, 192, 0);
+  width: 440px;
+  height: 800px;
+}
+.container_CV_rigth {
+  background-color: rgb(69, 69, 69);
+  width: 960px;
+  height: 800px;
+}
+.container_CV_rigth button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container_CV_rigth button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.container_CV_left h2,
+.container_CV_left img {
+  margin-left: 32px;
+}
+.container_CV_rigth p,
+.container_CV_rigth button {
+  margin-left: 55px;
+}
+
+.container_CV_left h2 {
+  margin-top: 55px;
+  margin-bottom: 27px;
+  color: black;
+  font-size: 25px;
+  font-weight: 800;
+}
+.container_CV_rigth_name {
+  margin-top: 155px;
+  color: rgb(255, 192, 0);
+  font-size: 25px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+}
+
+.container_CV_rigth_number {
+  color: rgb(255, 192, 0);
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  font-style: italic;
+}
+.container_CV_rigth_mail {
+  color: rgb(255, 192, 0);
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  font-style: italic;
+}
+.container_CV_rigth_CV {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 11px;
+  margin-left: 251px;
+  margin-right: 170px;
+}
+.container_CV_rigth_button {
+  transform: translate(823px, -424px);
+}
